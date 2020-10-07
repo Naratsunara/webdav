@@ -64,7 +64,7 @@ def cekfile():
 
 if __name__ == '__main__':
   if len(sys.argv) != 3:
-    print("\n[*] Usage: "+sys.argv[0]+" Target.com ScriptDeface.htm\n")
+    print("\n[*] Usage: "+sys.argv[0]+" Target.com ScriptDeface.html\n")
     sys.exit(0)
   else:
     cekfile()
