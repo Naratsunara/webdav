@@ -1,15 +1,18 @@
-#!/usr/bin/python2
+#!/usr/bin/python
 
 import requests
-import string                                         import random
+import string
+import random
 import sys
 import os
+
 os.system("clear")
 
 print """
  __      __      ___.   ________      _________   ____
 /  \    /  \ ____\_ |__ \______ \    /  _  \   \ /   /
-\   \/\/   // __ \| __ \ |    |  \  /  /_\  \   Y   /  \        /\  ___/| \_\ \|    `   \/    |    \     /
+\   \/\/   // __ \| __ \ |    |  \  /  /_\  \   Y   /
+ \        /\  ___/| \_\ \|    `   \/    |    \     /
   \__/\  /  \___  >___  /_______  /\____|__  /\___/
        \/       \/    \/        \/         \/         """
 
@@ -64,3 +67,4 @@ if __name__ == '__main__':
     print("\n[*] Usage: "+sys.argv[0]+" Target.com ScriptDeface.htm\n")
     sys.exit(0)
   else:
+    cekfile()
